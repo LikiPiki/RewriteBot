@@ -1,3 +1,0 @@
-package: .
-import:
-- package: gopkg.in/telegram-bot-api.v4
