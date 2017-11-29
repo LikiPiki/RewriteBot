@@ -61,7 +61,6 @@ func sendNudes(msg *tgbotapi.Message) {
 		if err != nil {
 			generatePhrase(msg, "error")
 		}
-		println(string(bytes))
 		var q Querys
 		err = json.Unmarshal(bytes, &q)
 		if err != nil {
