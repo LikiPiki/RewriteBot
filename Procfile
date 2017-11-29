@@ -1,1 +1,1 @@
-worker: ./RewriteBot
+worker: projects
